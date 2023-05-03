@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Lunatics.Bikes</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Unbounded:wght@300&display=swap"
+            rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+            integrity="sha512-....." crossorigin="anonymous" referrerpolicy="no-referrer">
+    </head>
+
+    <body class="bg-black bg-gradient">
+        <header class="sticky-top">
+            <nav class="navbar navbar-expand-sm bg-dark  navbar-dark justify-content-center">
+                <div class="container-fluid">
+                    <!-- Botón de menú para dispositivos móviles -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- Enlaces de navegación -->
+                    <div class="collapse navbar-collapse justify-content-center text-uppercase" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="Index.html">
+                                    <i class="bi bi-house"></i> HOME
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="PRODUCTOS.html">
+                                    <i class="bi bi-basket"></i> PRODUCTOS
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="Contacto.html">
+                                    <i class="bi bi-clipboard2-fill"></i> registro
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="mb-5">
+            <img class="img-fluid mb-3" src="imagenes/final_futer_corte.jpg" alt="portada" width="100%" height="10px">
+        </div>
+        <main class="container mb-5">
+                <!--login-->
+                <div class="container mt-3 text-danger">
+                    <!-- Nav pills -->
+                <ul class="nav nav-pills d-flex justify-content-center" role="tablist">
+                        <li class="nav-item mx-4">
+                            <a class="nav-link active text-uppercase text-bg-secondary" data-bs-toggle="pill" href="#login">LOGIN</a>
+                        </li>
+                        <li class="nav-item mx-4 ">
+                            <a class="nav-link text-uppercase text-bg-secondary" data-bs-toggle="pill" href="#registro">Registrar</a>
+                        </li>
+                        <li class="nav-item mx-4 ">
+                            <a class="nav-link text-uppercase text-bg-secondary" data-bs-toggle="pill" href="#contacto">contacto</a>
+                        </li>
+                    </ul>
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div id="login" class="container tab-pane active">
+                        <form>
+                            <div class="text-center mb-3">
+                                <br>
+                                <p>Registrarse con:</p>
+                                <button type="button" class="btn btn-link btn-floating mx-1 ">
+                                    <i class="fab fa-facebook-f"></i>
+                                </button>
+                        
+                                <button type="button" class="btn btn-link btn-floating mx-1">
+                                    <i class="fab fa-google "></i>
+                                </button>
+                        
+                                <button type="button" class="btn btn-link btn-floating mx-1">
+                                    <i class="fab fa-twitter"></i>
+                                </button>
+                        
+                                <button type="button" class="btn btn-link btn-floating mx-1">
+                                    <i class="fab fa-github"></i>
+                                </button>
+                            </div>
+                            <!-- Email input -->
+                            <div class="form-outline mb-4">
+                                <input type="email" id="loginName" class="form-control" />
+                                <label class="form-label" for="loginName">Correo electrónico</label>
+                            </div>
+                        
+                            <!-- Password input -->
+                            <div class="form-outline mb-4">
+                                <input type="password" id="loginPassword" class="form-control" />
+                                <label class="form-label" for="loginPassword">Contraseña</label>
+                            </div>
+                        
+                            <!-- 2 column grid layout -->
+                            <div class="row mb-4">
+                                <div class="col-md-6 d-flex justify-content-center">
+                                    <!-- Checkbox -->
+                                    <div class="form-check mb-3 mb-md-0">
+                                        <input class="form-check-input" type="checkbox" value="" id="loginCheck" checked />
+                                        <label class="form-check-label" for="loginCheck"> Recuérdame </label>
+                                    </div>
+                                </div>
+                        
+                                <div class="col-md-6 d-flex justify-content-center">
+                                    <!-- Simple link -->
+                                    <a href="#!">Olvidé mi contraseña?</a>
+                                </div>
+                            </div>
+                        
+                            <!-- Submit button -->
+                            <button type="submit" class="btn btn-secondary btn-block mb-4">Iniciar sesión</button>
+                        
+                            <!-- Register buttons -->
+                            <div class="text-center ">
+                                <p>¿No eres miembro? <a href="#registro">Registrar</a></p>
+                            </div>
+                        </form>
+                    </div>
+
+                <div id="registro" class="container tab-pane fade">
+                    <form>
+                        <div class="text-center mb-3">
+                            <br>
+                            <p>Registrarse con:</p>
+                            <button type="button" class="btn btn-link btn-floating mx-1">
+                                <i class="fab fa-facebook-f"></i>
+                            </button>
+                
+                            <button type="button" class="btn btn-link btn-floating mx-1">
+                                <i class="fab fa-google"></i>
+                            </button>
+                
+                            <button type="button" class="btn btn-link btn-floating mx-1">
+                                <i class="fab fa-twitter"></i>
+                            </button>
+                
+                            <button type="button" class="btn btn-link btn-floating mx-1">
+                                <i class="fab fa-github"></i>
+                            </button>
+                        </div>
+                        <!-- Name input -->
+                        <div class="form-outline mb-4">
+                            <input type="text" id="registerName" class="form-control" />
+                            <label class="form-label" for="registerName">Nombre</label>
+                        </div>
+                
+                        <!-- Username input -->
+                        <div class="form-outline mb-4">
+                            <input type="text" id="registerUsername" class="form-control" />
+                            <label class="form-label" for="registerUsername">nombre de usuario</label>
+                        </div>
+                
+                        <!-- Email input -->
+                        <div class="form-outline mb-4">
+                            <input type="email" id="registerEmail" class="form-control" />
+                            <label class="form-label" for="registerEmail">Correo electrónico</label>
+                        </div>
+                
+                        <!-- Password input -->
+                        <div class="form-outline mb-4">
+                            <input type="password" id="registerPassword" class="form-control" />
+                            <label class="form-label" for="registerPassword">Contraseña</label>
+                        </div>
+                
+                        <!-- Repeat Password input -->
+                        <div class="form-outline mb-4">
+                            <input type="password" id="registerRepeatPassword" class="form-control" />
+                            <label class="form-label" for="registerRepeatPassword">Repita Contraseña</label>
+                        </div>
+                
+                        <!-- Checkbox -->
+                        <div class="form-check d-flex justify-content-center mb-4">
+                            <input class="form-check-input me-2" type="checkbox" value="" id="registerCheck" checked
+                                aria-describedby="registerCheckHelpText" />
+                            <label class="form-check-label" for="registerCheck">
+                            He leído y estoy de acuerdo con los términos.
+                            </label>
+                        </div>
+                        <!-- Submit button -->
+                        <button type="submit" class="btn btn-secondary btn-block mb-3">enviar</button>
+                    </form>
+                </div>
+                <!--contacto-->
+                <div id="contacto" class="container tab-pane fade">
+                    <form>
+                        <br>
+                        <div class="text-center mb-3">
+                            <br>
+                            <p>Registrarse con:</p>
+                            <button type="button" class="btn btn-link btn-floating mx-1">
+                                <i class="fab fa-facebook-f"></i>
+                            </button>
+                
+                            <button type="button" class="btn btn-link btn-floating mx-1">
+                                <i class="fab fa-google"></i>
+                            </button>
+                
+                            <button type="button" class="btn btn-link btn-floating mx-1">
+                                <i class="fab fa-twitter"></i>
+                            </button>
+                
+                            <button type="button" class="btn btn-link btn-floating mx-1">
+                                <i class="fab fa-github"></i>
+                            </button>
+                        </div>
+                        <div class="form-outline mb-4">
+                            <input type="text" id="contactName" class="form-control" name="contactName" />
+                            <label class="form-label" for="contactName">Nombre</label>
+                        </div>
+                
+                        <div class="form-outline mb-4">
+                            <input type="email" id="contactEmail" class="form-control" name="contactEmail" />
+                            <label class="form-label" for="contactEmail">Correo electrónico</label>
+                        </div>
+                
+                        <div class="form-outline mb-4">
+                            <input type="text" id="contactSubject" class="form-control" name="contactSubject" />
+                            <label class="form-label" for="contactSubject">Asunto</label>
+                        </div>
+                
+                        <div class="form-outline mb-4">
+                            <textarea id="contactMessage" class="form-control" name="contactMessage" rows="4"></textarea>
+                            <label class="form-label" for="contactMessage">Mensaje</label>
+                        </div>
+                
+                        <button type="submit" class="btn btn-secondary btn-block mb-3">Enviar</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="container text-center">
+                <h1 class="mt-5 text-white">Horario de apertura</h1>
+                <table class="table table-striped table-hover mt-4" style="border: 2px solid #ffffff;">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Día</th>
+                            <th>Horario de apertura</th>
+                            <th>Horario de cierre</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text-white">Lunes</td>
+                            <td class="text-white">11:00 am</td>
+                            <td class="text-white">7:00 pm</td>
+                        </tr>
+                        <tr>
+                            <td class="text-white">Martes</td>
+                            <td class="text-white">11:00 am</td>
+                            <td class="text-white">7:00 pm</td>
+                        </tr>
+                        <tr>
+                            <td class="text-white">Miércoles</td>
+                            <td class="text-white">11:00 am</td>
+                            <td class="text-white">7:00 pm</td>
+                        </tr>
+                        <tr>
+                            <td class="text-white">Jueves</td>
+                            <td class="text-white">11:00 am</td>
+                            <td class="text-white">7:00 pm</td>
+                        </tr>
+                        <tr>
+                            <td class="text-white">Viernes</td>
+                            <td class="text-white">11:00 am</td>
+                            <td class="text-white">7:00 pm</td>
+                        </tr>
+                        <tr>
+                            <td class="text-white">Sábado</td>
+                            <td class="text-white">10:00 am</td>
+                            <td class="text-white">4:00 pm</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </body>
+
+</html>
