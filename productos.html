@@ -1,104 +1,320 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="UTF-8">
-    <title>Lunatics.Bikes</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/estilos.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Unbounded:wght@300&display=swap"
-        rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-        crossorigin="anonymous"></script>
-
-</head>
-
-<body>
-    <header>
-        <div class="fondo_logo">
-            <h1><img class="logo" src="imagenes/Imagen de WhatsApp 2023-01-15 a las 23.31.36.jpg"></h1>
-        </div>
-        <div class="linea2">
-            <nav class="lista1">
-                <ul>
-                    <li><a href="Index.html">Home</a></li>
-                    <li><a href="PRODUCTOS.html">Productos</a></li>
-                    <li><a href="Contacto.html">Contacto</a></li>
-                    <li><img class="imagen_transparente" src="imagenes/moto_transparente.png" alt="moto"></li>
-                </ul>
+    <head>
+        <meta charset="UTF-8">
+        <title>Lunatics.Bikes</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Unbounded:wght@300&display=swap"
+            rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+            integrity="sha512-....." crossorigin="anonymous" referrerpolicy="no-referrer">
+    </head>
+    <body class="bg-black bg-gradient">
+        <header class="sticky-top">
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">
+                <div class="container-fluid">
+                    <!-- Botón de menú para dispositivos móviles -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- Enlaces de navegación -->
+                    <div class="collapse navbar-collapse justify-content-center text-uppercase" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="Index.html">
+                                    <i class="bi bi-house"></i> HOME
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="PRODUCTOS.html">
+                                    <i class="bi bi-basket"></i> PRODUCTOS
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="Contacto.html">
+                                    <i class="bi bi-clipboard2-fill"></i> registro
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
+        </header>
+        <div class="mb-5">
+            <img class="img-fluid mb-3" src="imagenes/final_futer_corte.jpg" alt="portada" width="100%" height="10px">
         </div>
-    </header>
-    <main class="main">
-        <section class="productos_descripcion">
-            <h1>Cambio de aceite</h1>
-            <br>
-            <p>El cambio de aceite es un servicio importante que se realiza regularmente para mantener la eficiencia y la longevidad de
-            un motor de moto. Consiste en drenar el viejo aceite del motor y reemplazarlo con un lubricante fresco y limpio. El
-            aceite lubrica los componentes móviles del motor para reducir el desgaste y proteger contra la fricción. Además, el
-            aceite también ayuda a mantener la temperatura del motor en un nivel adecuado y a recoger las impurezas y los desechos
-            generados durante el funcionamiento del motor. El cambio de aceite regular es crucial para garantizar que el motor de la
-            moto funcione de manera eficiente y durante más tiempo..</p>
-            <h1>Revisión del sistema de frenos</h1>
-            <p>La revisión del sistema de frenos es un servicio importante que se realiza regularmente para garantizar que la moto
-            tenga una frenada segura y eficiente. Durante esta revisión, se inspeccionan cuidadosamente los componentes clave del
-            sistema de frenos, incluyendo los discos, las pastillas y los fluidos. Se verifica la cantidad de fluido en el sistema y
-            se comprueba su nivel de claridad y consistencia. También se inspeccionan los discos de freno y las pastillas para
-            detectar cualquier desgaste excesivo o daño. Si se encuentran problemas, se reemplazan las piezas necesarias para
-            garantizar una frenada segura. En resumen, la revisión del sistema de frenos es una parte importante del mantenimiento
-            de la moto y es esencial para garantizar una conducción segura y confiable.</p>
-            <h1>Revisión de la suspensión</h1>
-            <p>La revisión de la suspensión es un servicio importante que se realiza para garantizar una conducción suave y segura en
-            una moto. Durante esta revisión, se inspeccionan cuidadosamente los componentes clave de la suspensión, incluyendo las
-            horquillas, los amortiguadores y los muelles. Se verifica el ajuste y la tensión de la suspensión para garantizar que
-            estén funcionando de manera adecuada. También se inspeccionan los componentes para detectar cualquier desgaste excesivo
-            o daño. Si se encuentran problemas, se reemplazan las piezas necesarias para garantizar una suspensión suave y
-            eficiente. La revisión de la suspensión también es importante para mejorar la maniobrabilidad y la estabilidad de la
-            moto. En resumen, la revisión de la suspensión es una parte importante del mantenimiento de la moto y es esencial para
-            garantizar una conducción segura y cómoda.</h1>
-            <p>ofrecemos un mantenimiento general completo para asegurar que tu moto esté en óptimas condiciones. Durante este
-            servicio, realizamos una revisión exhaustiva de todos los sistemas clave, incluyendo eléctrico, de frenos, de
-            transmisión, de suspensión y de lubricación. Además, inspeccionamos cuidadosamente la moto para detectar cualquier
-            problema potencial y ajustamos o reemplazamos cualquier pieza desgastada o dañada. También limpie y ajustamos la cadena
-            de transmisión para garantizar una conducción suave y eficiente. En resumen, nuestro mantenimiento general es una forma
-            de asegurarse de que tu moto esté funcionando al máximo rendimiento y sea segura para conducir. ¡Agenda tu cita hoy y
-            permítenos cuidar de tu moto!</p>
-        </section>
-        <section class="">
+        <main class="container">
+            <div class="container mt-3 mb-5">
+                <div class="row">
+                    <div class="col-md-4 mb-5">
+                        <div class="card bg-black mb-3 text-light text-uppercase">
+                            <div class="card-body">
+                                <h5 class="card-title">Mantenimiento</h5>
+                                <p class="card-text">Realizar un mantenimiento regular a la moto es esencial para asegurar el
+                                    correcto funcionamiento, prolongar su vida útil y aumentar la seguridad del conductor. Esto
+                                    puede incluir la revisión y ajuste de los frenos, la suspensión, la transmisión y otros
+                                    componentes.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-5">
+                        <div class="card bg-black mb-3 text-light text-uppercase">
+                            <div class="card-body">
+                                <h5 class="card-title">Cambios de aceite</h5>
+                                <p class="card-text">Cambiar el aceite regularmente es una tarea importante para mantener la salud
+                                    del motor. Esto puede incluir el cambio del filtro de aceite y la verificación de otros fluidos
+                                    como el líquido de frenos y el refrigerante.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-5">
+                        <div class="card bg-black mb-3 text-light text-uppercase">
+                            <div class="card-body">
+                                <h5 class="card-title">Limpieza</h5>
+                                <p class="card-text">Mantener la moto limpia no solo ayuda a mantener su apariencia, sino que
+                                    también puede prevenir la acumulación de suciedad y corrosión en componentes importantes. Esto
+                                    puede incluir la limpieza de la cadena, las llantas, el chasis y otros componentes.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-5">
+                        <div class="card bg-black mb-3 text-light text-uppercase">
+                            <div class="card-body">
+                                <h5 class="card-title">Reparaciones</h5>
+                                <p class="card-text">Las reparaciones pueden ser necesarias para corregir problemas o fallas en los
+                                    componentes de la moto. Esto puede incluir la sustitución de piezas dañadas o desgastadas, la
+                                    reparación de fugas de líquidos o la solución de problemas eléctricos.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-5">
+                        <div class="card bg-black mb-3 text-light text-uppercase">
+                            <div class="card-body">
+                                <h5 class="card-title">Instalación de accesorios</h5>
+                                <p class="card-text">La instalación de accesorios puede mejorar el rendimiento, la seguridad y la
+                                    apariencia de la moto. Esto puede incluir la instalación de sistemas de escape, kits de
+                                    iluminación, sistemas de frenado mejorados y otros accesorios.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-5">
+                        <div class="card bg-black mb-3 text-light text-uppercase">
+                            <div class="card-body">
+                                <h5 class="card-title">Frenos</h5>
+                                <p class="card-text">Mantener los frenos en buen estado es crucial para garantizar la seguridad del conductor. Se recomienda revisar los
+                                frenos con
+                                regularidad y reemplazar las pastillas y discos si presentan signos de desgaste o si el pedal o la palanca de freno se
+                                sienten blandos o
+                                pierden eficacia.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Carousel -->
+            <div id="demo" class="carousel slide mb-5" data-bs-ride="carousel">
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                </div>
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner mb-5 align-items-center justify-content-center">
+                    <div class="carousel-item active mb-5">
+                        <img src="imagenes/moto_carrucel.jpg" alt="Los Angeles" class="d-block mx-auto" style="width:50%">
+                    </div>
+                    <div class="carousel-item mb-5">
+                        <img src="imagenes/motos_lindas.jpg" alt="Chicago" class="d-block mx-auto" style="width:50%">
+                    </div>
+                    <div class="carousel-item mb-5">
+                        <img src="imagenes/moto_linda.jpg" alt="New York" class="d-block mx-auto" style="width: 50%">
+                    </div>
+                    <div class="carousel-item mb-5">
+                        <img src="imagenes/motos-freno.jpg" alt="New York" class="d-block mx-auto" style="width: 50%">
+                    </div>
+                </div>
+
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
 
 
+            <div id="carouselExampleControls" class="carousel slide mb-5" data-bs-ride="carousel">
 
-        </section>
-        <section>
-            
-        </section>
-        <section class="">
-            
-        </section>
-        <section class="">
-        </section>
-    </main>
-    <footer>
-        <nav class="redes">
-            <ul>
-                <li><a href="https://www.facebook.com/Lunatics.Bikes">facebook<img class="imagenes_redes"
-                            src="imagenes/facebook-g889c25220_640.png"></a></li>
-                <li><a href="https://www.instagram.com/lunatics.bikes/">instagram<img class="imagenes_redes"
-                            src="imagenes/instagram-ge923e5ebc_1280.png"></a></li>
-            </ul>
-        </nav>
-        <img class="imagen_inferior" src="imagenes/pie.jpg" alt="Logo de lunatics bikes">
-    </footer>
-</body>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="3"></button>
+                </div>
+
+                <div class="carousel-inner align-items-center justify-content-center">
+                    <div class="carousel-item active mb-5">
+                        <img src="imagenes/conor-luddy-kf4KHfDlIIg-unsplash.jpg" alt="Los Angeles" class="d-block mx-auto" style="width:50%">
+                        Foto de <a
+                            href="https://unsplash.com/@opticonor?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Conor
+                            Luddy</a> en <a
+                            href="https://unsplash.com/es/fotos/kf4KHfDlIIg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                    </div>
+                    <div class="carousel-item mb-5">
+                        <img src="imagenes/zaid-ahmed-imtiaz-FqTd_dFnm_s-unsplash(1).jpg" alt="Chicago" class="d-block mx-auto" style="width:50%">
+                        Foto de <a
+                            href="https://unsplash.com/@zaidahmed_97?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Zaid
+                            Ahmed Imtiaz</a> en <a
+                            href="https://unsplash.com/es/fotos/FqTd_dFnm_s?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                    </div>
+                    <div class="carousel-item mb-5">
+                        <img src="imagenes/san-JN-W9bnsdgM-unsplash.jpg" alt="New York" class="d-block mx-auto" style="width: 50%">
+                        <p>Foto de <a
+                            href="https://unsplash.com/@santhoshsrt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">San</a>
+                        en <a
+                            href="https://unsplash.com/es/fotos/JN-W9bnsdgM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+                    </div>
+                    <div class="carousel-item mb-5">
+                        <img src="imagenes/julian-paolo-dayag-K9hIwWsfU20-unsplash(1).jpg" alt="New York" class="d-block mx-auto" style="width: 50%">
+                        <p>Foto de <a
+                            href="https://unsplash.com/@wisdomsky?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Julian
+                            Paolo Dayag</a> en <a
+                            href="https://unsplash.com/es/fotos/K9hIwWsfU20?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+
+        </main>
+        <!-- Footer -->
+        <footer class="text-center text-lg-start bg-dark text-muted">
+            <!-- Section: Social media -->
+            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                <!-- Left -->
+                <div class="me-5 d-none d-lg-block">
+                    <span>Contacto con nosotros :</span>
+                </div>
+                <!-- Left -->
+                <!-- Right -->
+                <div>
+                    <a href="https://www.facebook.com/Lunatics.Bikes" class="me-4 text-reset">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/lunatics.bikes/" class="me-4 text-reset">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://github.com/DAVIDCRUZ18" class="me-4 text-reset">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <!-- Right -->
+            </section>
+            <!-- Section: Social media -->
+            <!-- Section: Links  -->
+            <section class="">
+                <div class="container text-center text-md-start mt-5">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                <i class="fas fa-gem me-3"></i>Lunatics bikes
+                            </h6>
+                            <p class="text-uppercase">
+                                "Motorizados con experiencia, calidad y pasión"
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                PRODUCTOS
+                            </h6>
+                            <p>
+                                <a href="PRODUCTOS.html" class="text-reset">Mantenimiento</a>
+                            </p>
+                            <p>
+                                <a href="PRODUCTOS.html" class="text-reset">Cambios</a>
+                            </p>
+                            <p>
+                                <a href="PRODUCTOS.html" class="text-reset">Limpieza</a>
+                            </p>
+                            <p>
+                                <a href="PRODUCTOS.html" class="text-reset">Proyectos</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Useful links
+                            </h6>
+                            <p>
+                                <a href="#!" class="text-reset">Pricing</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Settings</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Orders</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Help</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">CONTACTO</h6>
+                            <p><i class="fas fa-home me-3"></i>Av Boyaca # 69 B - 29,Bogotá-Colombia</p>
+                            <p>
+                                <i class="fas fa-envelope me-3"></i>
+                                andres26martinez@gmail.com
+                            </p>
+                            <p><i class="fas fa-phone me-3"></i>+ 57 314 4008421</p>
+                            <p><i class="fas fa-print me-3"></i>+ 57 314 4008421</p>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </section>
+            <!-- Section: Links  -->
+
+            <!-- Copyright -->
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                © 2023 Copyright:
+                <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+                <a class="text-reset fw-bold" href="https://github.com/DAVIDCRUZ18">CREADO POR DAVID CRUZ</a><a></a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+    </body>
 
 </html>

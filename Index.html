@@ -4,7 +4,6 @@
             <meta charset="UTF-8">
             <title>Lunatics.Bikes</title>
             <link rel="stylesheet" href="css/reset.css">
-            
             <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,94 +12,276 @@
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Unbounded:wght@300&display=swap"
                 rel="stylesheet">
-            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-                integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-                crossorigin="anonymous"></script>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+                integrity="sha512-....." crossorigin="anonymous" referrerpolicy="no-referrer">
         </head>
-        <body>
-            <header>
-                <div>
-                    <img class="img-fluid" src="imagenes/Imagen de WhatsApp 2023-01-15 a las 23.31.36.jpg" alt="portada" width="100%"
-                        height="100%">
-                </div>
-                <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <body class="bg-gradient bg-black" ;>
+            <header class="sticky-top text-uppercase">
+                <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">
                     <div class="container-fluid">
-
-                        <ul class="navbar-nav">
-
-                            <li class="nav-item">
-                                <a class="nav-link active" href="Index.html">HOME</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link active" href="PRODUCTOS.html">PRODUCTOS</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link active" href="Contacto.html">CONTACTO</a>
-                            </li>
-
-                        </ul>
+                        <!-- Botón de menú para dispositivos móviles -->
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <!-- Enlaces de navegación -->
+                        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="Index.html">
+                                        <i class="bi bi-house"></i> HOME
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="PRODUCTOS.html">
+                                        <i class="bi bi-basket"></i> PRODUCTOS
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="Contacto.html">
+                                        <i class="bi bi-clipboard2-fill"></i> registro
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </nav>
             </header>
+            <div>
+                <img class="img-fluid mb-3" src="imagenes/PORTADA_cortada.jpg" alt="portada" width="100%" height="10px">
+            </div>
             <main class="container">
-                <div >
-                    <h1>Lunatics bikes </h1>
-                    <br>
-                    <h2>Tu Moto En Manos Expertas</h2>
+                <div class="container-fluid m-lg-3 d-flex align-items-center justify-content-center mb-3">
+                    <h2 class="text-center text-light text-uppercase">Tu Moto En Manos Expertas</h2>
                 </div>
-                <div class="container">
-                    <p>"Bienvenido a nuestra página web de mecánica para motos. Somos un equipo de profesionales
-                        altamente capacitados y
-                        apasionados de las motocicletas.</p>
-                    
-                    <p>Ofrecemos una amplia gama de servicios, desde el mantenimiento básico hasta la reparación
-                        de motores, para garantizar
-                        que tu moto siempre esté en óptimas condiciones.</p>
-                    
-                    <p>Contamos con las herramientas y la experiencia necesarias para garantizar que tu moto sea
-                        segura, confiable y divertida
-                        de conducir. No importa si tienes una moto de carretera, una motocross o una motocicleta clásica, nos aseguramos
-                        de
-                        que
-                        tu moto reciba el mejor cuidado posible.</p>
-
-                    <img src="imagenes/Mantenimiento-Y-Reparacion-De-Motos-Modulo-I.webp" class="float" alt="mantenimiento" width="304" height="236">
-                </div>
-                <div class="container-fluid">
-                    
-                </div>
-                <div class="container">
+                <div class="container-fluid text-light mt-auto mb-5 bg bg-black d-flex align-items-center">
+                    <img src="imagenes/moto_andres.jpg" alt="empresa" style="max-width: 50%; margin-right: 20px;">
                     <div>
-                        <h2 class="titulo">DONDE ESTAMOS UBICADOS</h2>
+                        <p>Bienvenido a nuestra página web de mecánica para motos. Somos un equipo de profesionales altamente
+                            capacitados y apasionados de las motocicletas.</p>
+                        <p>Ofrecemos una amplia gama de servicios, desde el mantenimiento básico hasta la reparación de motores, para
+                            garantizar que tu moto siempre esté en óptimas condiciones.</p>
+                        <p>Contamos con las herramientas y la experiencia necesarias para garantizar que tu moto sea segura, confiable y
+                            divertida de conducir. No importa si tienes una moto de carretera, una motocross o una motocicleta clásica,
+                            nos aseguramos de que tu moto reciba el mejor cuidado posible.</p>
                     </div>
-                    <div class="ratio ratio-21x9">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d319.2164274591185!2d-74.09700600048659!3d4.6846395853530485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9b357cef7f31%3A0xf1378d1b400bcf40!2sLUNATICS%20BIKES!5e0!3m2!1ses!2sco!4v1674407122327!5m2!1ses!2sco"
-                            width="4500" height="450" style="border:0 0 1em 0;" allowfullscreen loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    
                 </div>
-                <div class="container-img">
-                    <div >
-                         <img  class="img-fluid" src="imagenes/Imagen de WhatsApp 2023-01-15 a las 23.31.347.jpg" class="rounded" alt="logo">
+                <div class="container mt-3 mb-5 ">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card border-black bg-gradient bg-black text-light ">
+                                <img class="card-img-top" src="imagenes/moto azul_re.jpg" alt="Card image" style="">
+                                <div class="card-body">
+                                    <h4 class="card-title text-uppercase text-center">Importante</h4>
+                                    <p class="card-text">Realizar un mantenimiento regular a la moto es de suma importancia ya que contribuye significativamente a mejorar su
+                                    rendimiento, prolongar su vida útil y aumentar la seguridad del conductor. Además, puede ahorrar costos a largo plazo,
+                                    evitar fallas en los componentes y cumplir con los términos de la garantía. En definitiva, el mantenimiento preventivo
+                                    es fundamental para asegurar el correcto funcionamiento y disfrute adecuado de la moto.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card bg-black text-light ">
+                                <div class="card-body">
+                                    <h4 class="card-title text-uppercase text-center">Dato</h4>
+                                    <p class="card-text ">Un dato las motos es que fueron inventadas en el siglo XIX, pero no fue hasta la década de 1920 que
+                                    comenzaron a popularizarse como medio de transporte para el público en general. En ese entonces, se fabricaban
+                                    principalmente como motocicletas de carreras y solo estaban al alcance de unos pocos afortunados. Sin embargo, con el
+                                    tiempo, la tecnología avanzó y las motocicletas se hicieron más asequibles, lo que permitió que más personas pudieran
+                                    tener acceso a ellas.</p>
+                                </div>
+                                <img class="card-img-bottom " src="imagenes/primera_moto.jpg" alt="Card image" >
+                            </div>
+                        </div>
                     </div>
-                    
+                </div>
+                <div class="container mb-3">
+                    <div class="container-fluid m-lg-2 d-flex align-items-center justify-content-center mb-3 m-lg-3">
+                        <h2 class="text-center text-light text-uppercase">Nos encontramos Ubicados</h2>
+                    </div>
+                    <div class="row align-items-center ">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d319.2164274591185!2d-74.09700600048659!3d4.6846395853530485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9b357cef7f31%3A0xf1378d1b400bcf40!2sLUNATICS%20BIKES!5e0!3m2!1ses!2sco!4v1674407122327!5m2!1ses!2sco"
+                                    width="100%" height="450" style="border:0 0 1em 0;" allowfullscreen loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                        <div class="col-md-6 ">
+                            <div class="d-flex align-items-center text-light">
+                                <p class="text-black-100">
+                                    Ubicados en una posición privilegiada y de fácil acceso, en nuestro establecimiento ofrecemos una
+                                    experiencia inolvidable.
+                                    Nos enorgullece poder brindar a nuestros clientes la mejor ubicación para disfrutar de nuestros
+                                    servicios en un ambiente único
+                                    y con la más alta calidad. ¡Te esperamos para que descubras por ti mismo por qué somos el lugar ideal
+                                    para vivir momentos
+                                    inolvidables!
+                                </p>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center" style="height: 100%;">
+                                <video autoplay muted class="mx-auto d-block text-muted" width="95%">
+                                    <source src="Videos_motos/lUGAR.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <!-- Carousel -->
+                <div id="demo" class="carousel slide mb-5" data-bs-ride="carousel">
+                    <!-- Indicators/dots -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                    </div>
+                    <!-- The slideshow/carousel -->
+                    <div class="carousel-inner mb-5 align-items-center justify-content-center">
+                        <div class="carousel-item active mb-5">
+                            <img src="imagenes/mantenimiento.jpg" alt="mantenimiento" class="d-block mx-auto" style="width:50%">
+                        </div>
+                        <div class="carousel-item mb-5">
+                            <img src="imagenes/mantenimiento2.jpg" alt="mantenimiento" class="d-block mx-auto" style="width:50%">
+                        </div>
+                        <div class="carousel-item mb-5">
+                            <img src="imagenes/mantenimiento3.jpg" alt="mantenimiento" class="d-block mx-auto" style="width: 50%">
+                        </div>
+                        <div class="carousel-item mb-5">
+                            <img src="imagenes/mantenimiento4.jpg" alt="mantenimiento" class="d-block mx-auto" style="width: 50%">
+                        </div>
+                    </div>
+                
+                    <!-- Left and right controls/icons -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+                <div class="d-flex justify-content-center align-items-center" style="height:450px">
+                    <video autoplay class="mx-auto d-block" width="25%">
+                        <source src="Videos_motos/INtro.mp4" type="video/mp4">
+                    </video>
                 </div>
             </main>
-        <footer>
-            <nav class="redes">
-                <ul>
-                    <li><a href="https://www.facebook.com/Lunatics.Bikes">facebook<img class="img-fluid" src="imagenes/facebook-g889c25220_640.png"></a></li>
-                    <li><a href="https://www.instagram.com/lunatics.bikes/">instagram<img class="img-fluid" src="imagenes/instagram-ge923e5ebc_1280.png"></a></li>
-                </ul>
-            </nav>
-            <img class="img-fluid" src="imagenes/pie.jpg" alt="Logo de lunatics bikes">
-        </footer>
+        <!-- Footer -->
+        <footer class="text-center text-lg-start bg-dark text-muted">
+            <!-- Section: Social media -->
+            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                <!-- Left -->
+                <div class="me-5 d-none d-lg-block text-uppercase">
+                    <span>Contacto con nosotros :</span>
+                </div>
+                <!-- Left -->
+                <!-- Right -->
+                <div>
+                    <a href="https://www.facebook.com/Lunatics.Bikes" class="me-4 text-reset">
+                         <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/lunatics.bikes/" class="me-4 text-reset">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://github.com/DAVIDCRUZ18" class="me-4 text-reset">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <!-- Right -->
+            </section>
+            <!-- Section: Social media -->
+            <!-- Section: Links  -->
+            <section class="">
+                <div class="container text-center text-md-start mt-5">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                <i class="fas fa-gem me-3"></i>Lunatics bikes
+                            </h6>
+                            <p class="text-uppercase">
+                                "Motorizados con experiencia, calidad y pasión"
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                PRODUCTOS
+                            </h6>
+                            <p>
+                                <a href="PRODUCTOS.html" class="text-reset">Mantenimiento</a>
+                            </p>
+                            <p>
+                                <a href="PRODUCTOS.html" class="text-reset">Cambios</a>
+                            </p>
+                            <p>
+                                <a href="PRODUCTOS.html" class="text-reset">Limpieza</a>
+                            </p>
+                            <p>
+                                <a href="PRODUCTOS.html" class="text-reset">Proyectos</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+        
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Utilidad
+                            </h6>
+                            <p>
+                                <a href="#!" class="text-reset">Pricing</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Settings</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Orders</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Help</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+        
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">CONTACTO</h6>
+                            <p><i class="fas fa-home me-3"></i>Av Boyaca # 69 B - 29,Bogotá-Colombia</p>
+                            <p>
+                                <i class="fas fa-envelope me-3"></i>
+                                andres26martinez@gmail.com
+                            </p>
+                            <p><i class="fas fa-phone me-3"></i>+ 57 314 4008421</p>
+                            <p><i class="fas fa-print me-3"></i>+ 57 314 4008421</p>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </section>
+            <!-- Section: Links  -->
 
+            <!-- Copyright -->
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                © 2023 Copyright:
+                <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+                <a class="text-reset fw-bold" href="https://github.com/DAVIDCRUZ18">CREADO POR DAVID CRUZ</a><a></a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
         </body>
     </html>
